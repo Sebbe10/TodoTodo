@@ -7,7 +7,7 @@ addtodobutton.addEventListener("click", function () {
   paragraph.classList.add("paragraph-styling");
   paragraph.innerText = inputField.value;
   todocontainer.appendChild(paragraph);
-  inputField.value = "";
+  inputField.value = "test";
   paragraph.addEventListener("click", function () {
     paragraph.style.textDecoration = "line-through";
     paragraph.style.textDecorationColor = "red";
